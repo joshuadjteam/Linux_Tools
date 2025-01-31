@@ -8,6 +8,35 @@ sudo -i
 
 sudo apt update && apt upgrade
 
+sudo apt-get install -y curl
+
+curl -fsSL https://deb.nodesource.com/setup_23.x -o nodesource_setup.sh
+
+sudo -E bash nodesource_setup.sh
+
+sudo apt-get install -y nodejs
+
+node -v
+
+apt-get install -y curl
+
+curl -fsSL https://deb.nodesource.com/setup_23.x -o nodesource_setup.sh
+
+bash nodesource_setup.sh
+
+apt-get install -y nodejs
+
+node -v
+
+curl -fsSL https://deb.nodesource.com/setup_22.x -o nodesource_setup.sh
+
+sudo -E bash nodesource_setup.sh
+
+curl -fsSL https://deb.nodesource.com/setup_22.x -o nodesource_setup.sh
+
+bash nodesource_setup.sh
+
+
 sudo apt install flatpak
 
 sudo snap install discord
