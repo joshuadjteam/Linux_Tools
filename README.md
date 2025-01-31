@@ -8,6 +8,8 @@ sudo -i
 
 sudo apt update && apt upgrade
 
+sudo apt install flatpak
+
 sudo snap install discord
 
 sudo snap install brave
