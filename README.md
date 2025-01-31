@@ -6,12 +6,6 @@ Welcome to LinTools! Used for devices running, WSL, Ubuntu, Edubuntu, ZorinOS, e
 
 sudo -i
 
-Enter these commands
-
-echo This requires an Admin account... use sudo -i to load the superuser
-
-echo THIS REQUIRES A SUPERUSER ACCOUNT!!!!
-
 sudo apt update && apt upgrade
 
 sudo snap install discord
