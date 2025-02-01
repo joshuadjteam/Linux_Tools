@@ -244,6 +244,7 @@ Then exit by pressing (esc) and then (:q) (enter)
 
 startxfce4
 
+sudo systemctl restart xrdp
 
 
 
