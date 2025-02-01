@@ -39,6 +39,7 @@ curl -fsSL https://deb.nodesource.com/setup_22.x -o nodesource_setup.sh
 bash nodesource_setup.sh
 
 
+
 sudo apt install flatpak
 
 sudo snap install discord
@@ -46,6 +47,26 @@ sudo snap install discord
 sudo snap install brave
 
 sudo apt install cinnamon -y
+
+sudo apt install ubuntu-desktop  
+
+sudo apt install kubuntu-desktop # Kubuntu provides KDE Plasma
+
+sudo apt install xfce4
+
+sudo apt install xfce4-goodies
+
+sudo apt install lxqt
+
+sudo apt install cinnamon-desktop-environment
+
+sudo apt install ubuntu-mate-desktop 
+
+sudo apt install budgie-desktop
+
+sudo apt install gnome-shell
+
+sudo apt install gnome-tweaks
 
 flatpak install flathub org.gnome.Evolution
 
