@@ -212,15 +212,13 @@ Finish the setup in Android Studio
 
 When your in Android Studio, Click the setting icon and choose "Create Desktop Entry" and choose "create the entry for all users ((requires superuser privillages))
 
-______________________________________________________Fix xRDP___
+# Wrap Up
 
-Reboot your WSL by going to powershell
+Reboot your PC by going to Terminal
 
-wsl.exe --shutdown
+reboot
 
-wsl.exe
-
-________________________________________________XFCE4____________
+# XRDP Setup
 
 In here we have to start xfce4 when the pc starts... to do so go to your ubuntu terminal and type
 
@@ -245,7 +243,7 @@ startxfce4
 
 
 
-___________________________________TRY VISUAL STUDIO CODE__________
+# TRY VISUAL STUDIO CODE
 Now open a new terminal of ubuntu and type type
 
 code
@@ -253,16 +251,7 @@ code
 When prompted enter (Y)
 
 
-
-________________________________________________TEST_______________
-After the installation with these apps Open file explorer and go to this location
-
-%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Ubuntu
-
-And now press (Windows + R) and type mstsc 
-Go back to the Ubuntu terminal and type 
-
-________________________________________________RDP________________
+# RDP Test
 
 ifconfig
 
