@@ -8,6 +8,8 @@ sudo -i
 
 sudo apt update && apt upgrade
 
+sudo apt install linphone -y
+
 sudo apt-get install -y curl
 
 curl -fsSL https://deb.nodesource.com/setup_23.x -o nodesource_setup.sh
