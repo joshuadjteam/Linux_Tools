@@ -8,7 +8,7 @@ sudo -i
 
 sudo apt update && apt upgrade
 
-sudo apt install linphone -y
+sudo apt install linphone-desktop -y
 
 sudo apt-get install -y curl
 
