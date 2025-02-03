@@ -38,7 +38,9 @@ curl -fsSL https://deb.nodesource.com/setup_22.x -o nodesource_setup.sh
 
 bash nodesource_setup.sh
 
+sudo apt-get update
 
+sudo apt-get install virtualbox-7.0
 
 sudo apt install flatpak
 
