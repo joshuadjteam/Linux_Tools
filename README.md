@@ -44,6 +44,8 @@ wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --y
 
 sudo apt-get install virtualbox-7.0
 
+sudo apt install virtualbox -y
+
 sudo apt install flatpak
 
 sudo snap install discord
