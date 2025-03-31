@@ -76,6 +76,8 @@ sudo apt install gnome-shell
 
 sudo apt install gnome-tweaks
 
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
 flatpak install flathub org.gnome.Evolution
 
 flatpak install flathub io.github.alainm23.planify
