@@ -8,6 +8,14 @@ sudo -i
 
 sudo apt update && apt upgrade
 
+env bash
+
+url="https://discord.com/api/download?platform=linux&format=deb"
+
+curl -L -o /tmp/discord.deb $url
+
+sudo apt install /tmp/discord.deb
+
 sudo apt install linphone-desktop -y
 
 sudo apt-get install -y curl
