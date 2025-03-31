@@ -42,7 +42,7 @@ sudo apt-get update
 
 wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg --dearmor
 
-sudo apt-get install virtualbox-7.0
+sudo apt-get install virtualbox
 
 apt install net-tools
 
