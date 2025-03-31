@@ -18,6 +18,8 @@ sudo apt install /tmp/discord.deb
 
 sudo apt install linphone-desktop -y
 
+apt install nano
+
 sudo apt-get install -y curl
 
 curl -fsSL https://deb.nodesource.com/setup_23.x -o nodesource_setup.sh
