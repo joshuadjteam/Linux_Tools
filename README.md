@@ -174,7 +174,7 @@ sudo apt update
 
 sudo apt install code && echo this is Visual Studio Code
 
-sudo snap install code
+sudo apt install code
 
 passwd root
 
