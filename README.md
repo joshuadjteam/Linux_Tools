@@ -200,7 +200,9 @@ chmod +x ./studio.sh
 
 sudo apt-get install lubuntu-desktop  
 
+sudo adduser linux
 
+sudo usermod -aG sudo linux
 
 apt install winetricks -y
 
