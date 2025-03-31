@@ -108,6 +108,8 @@ flatpak install flathub com.spotify.Client
 
 sudo snap install firefox
 
+sudo apt install firefox
+
 sudo apt install x11-apps -y
 
 sudo apt install ubuntu-desktop
