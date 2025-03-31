@@ -106,6 +106,8 @@ sudo apt install xrdp -y
 
 sudo echo "xfce4-session" | tee .xsession
 
+service xrdp restart
+
 systemctl restart xrdp
 
 sudo apt install gedit -y
