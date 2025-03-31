@@ -62,6 +62,8 @@ sudo apt install flatpak
 
 sudo snap install discord
 
+curl -fsS https://dl.brave.com/install.sh | sh
+
 sudo snap install brave
 
 sudo apt install cinnamon -y
