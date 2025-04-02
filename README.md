@@ -12,6 +12,8 @@ env bash
 
 sudo apt-get install -y curl
 
+apt install wget
+
 url="https://discord.com/api/download?platform=linux&format=deb"
 
 curl -L -o /tmp/discord.deb $url
