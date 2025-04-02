@@ -10,6 +10,8 @@ sudo apt update && apt upgrade
 
 env bash
 
+sudo apt-get install -y curl
+
 url="https://discord.com/api/download?platform=linux&format=deb"
 
 curl -L -o /tmp/discord.deb $url
@@ -19,8 +21,6 @@ sudo apt install /tmp/discord.deb
 sudo apt install linphone-desktop -y
 
 apt install nano
-
-sudo apt-get install -y curl
 
 curl -fsSL https://deb.nodesource.com/setup_23.x -o nodesource_setup.sh
 
